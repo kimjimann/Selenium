@@ -6,42 +6,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-api-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-api-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-chrome-driver-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-chrome-driver-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-chromium-driver-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-chromium-driver-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v85-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v85-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v95-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v95-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v96-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v96-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v97-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v97-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-edge-driver-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-edge-driver-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-firefox-driver-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-firefox-driver-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-firefox-xpi-driver-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-firefox-xpi-driver-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-http-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-http-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-ie-driver-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-ie-driver-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-java-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-java-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-json-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-json-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-opera-driver-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-opera-driver-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-remote-driver-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-remote-driver-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-safari-driver-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-safari-driver-4.1.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-support-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-support-4.1.2-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/lib/async-http-client-2.12.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/lib/async-http-client-netty-utils-2.12.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/lib/auto-common-1.2.1.jar"/>
@@ -89,6 +54,41 @@
 	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/lib/opentelemetry-semconv-1.10.1-alpha.jar"/>
 	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/lib/reactive-streams-1.0.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/lib/slf4j-api-1.7.35.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-api-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-api-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-chrome-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-chrome-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-chromium-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-chromium-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v85-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v85-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v95-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v95-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v96-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v96-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v97-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-devtools-v97-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-edge-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-edge-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-firefox-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-firefox-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-firefox-xpi-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-firefox-xpi-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-http-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-http-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-ie-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-ie-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-java-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-java-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-json-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-json-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-opera-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-opera-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-remote-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-remote-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-safari-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-safari-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-support-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/Desktop/selenium/selenium-support-4.1.2-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
