@@ -43,10 +43,10 @@ public class seleniumTest {
         element.click();
         //id 입력
 		element = driver.findElement(By.xpath("//*[@id=\"modal\"]/div/div/div/div[2]/div[2]/div[2]/form/div[1]/input"));Thread.sleep(1000);
-        element.sendKeys("kimjiman94");
+        element.sendKeys("아이디");
         //pw 입력
         element = driver.findElement(By.xpath("//*[@id=\"modal\"]/div/div/div/div[2]/div[2]/div[2]/form/div[2]/input"));Thread.sleep(1000);
-        element.sendKeys("ac940108!");
+        element.sendKeys("패스워드");
         //로그인
         element.submit();Thread.sleep(1000);      
         //탭 전환
