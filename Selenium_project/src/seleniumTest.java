@@ -22,7 +22,7 @@ public class seleniumTest {
         //System Property SetUp
         System.setProperty(WEB_DRIVER_ID, WEB_DRIVER_PATH);
 
-        //Driver SetUp
+        //Driver setup
          ChromeOptions options = new ChromeOptions();
          options.setCapability("ignoreProtectedModeSettings", true);
          driver = new ChromeDriver();   
@@ -61,6 +61,7 @@ public class seleniumTest {
 
 	@AfterClass
 	public static void tearDown() throws Exception{
+		//driver quit
 		driver.quit();
 	}
 }
