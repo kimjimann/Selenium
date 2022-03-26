@@ -31,30 +31,30 @@ public class seleniumTest {
     }
 
 	@Test
-	public void t01_Ç°Áú°ü¸®Á÷¹«Áö¿ø() throws Exception{	
-		//Ç°Áú°ü¸®Á÷¹« Áö¿øÇÏ±â Å¬¸¯
-		element = driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/section/div/article/div/table[1]/tbody/tr[8]/td[4]/a")); 
+	public void t01_í’ˆì§ˆê´€ë¦¬ì§ë¬´ì§€ì›() throws Exception{	
+	//í’ˆì§ˆê´€ë¦¬ì§ë¬´ ì§€ì›í•˜ê¸° í´ë¦­
+	element = driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/section/div/article/div/table[1]/tbody/tr[8]/td[4]/a")); 
         element.click();
-        //ÅÇ ÀüÈ¯
+        //íƒ­ ì „í™˜
         ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
         driver.switchTo().window(tabs.get(1));
-        //Áö¿øÇÏ±â Å¬¸¯
+        //ì§€ì›í•˜ê¸° í´ë¦­
         element = driver.findElement(By.xpath("//*[@id=\"__next\"]/div/div[2]/main/div/div/div[2]/div/div/div[2]/a"));Thread.sleep(1000);
         element.click();
-        //id ÀÔ·Â
-		element = driver.findElement(By.xpath("//*[@id=\"modal\"]/div/div/div/div[2]/div[2]/div[2]/form/div[1]/input"));Thread.sleep(1000);
-        element.sendKeys("¾ÆÀÌµğ");
-        //pw ÀÔ·Â
+        //id ì…ë ¥
+	element = driver.findElement(By.xpath("//*[@id=\"modal\"]/div/div/div/div[2]/div[2]/div[2]/form/div[1]/input"));Thread.sleep(1000);
+        element.sendKeys("ì•„ì´ë””");
+        //pw ì…ë ¥
         element = driver.findElement(By.xpath("//*[@id=\"modal\"]/div/div/div/div[2]/div[2]/div[2]/form/div[2]/input"));Thread.sleep(1000);
-        element.sendKeys("ÆĞ½º¿öµå");
-        //·Î±×ÀÎ
+        element.sendKeys("íŒ¨ìŠ¤ì›Œë“œ");
+        //ë¡œê·¸ì¸
         element.submit();Thread.sleep(1000);      
-        //ÅÇ ÀüÈ¯
+        //íƒ­ ì „í™˜
         driver.switchTo().window(tabs.get(1));
-        //Áö¿øÇÏ±â Å¬¸¯
+        //ì§€ì›í•˜ê¸° í´ë¦­
         element = driver.findElement(By.className("jd_text__xx2TV"));Thread.sleep(1000);
         element.click();Thread.sleep(1000);
-        //Á¶±İ´õ µÑ·¯º¼°Ô¿ä Å¬¸¯
+        //ì¡°ê¸ˆë” ë‘˜ëŸ¬ë³¼ê²Œìš” í´ë¦­
         element = driver.findElement(By.xpath("//*[@id=\"modal\"]/div/div/div/div/a[1]"));Thread.sleep(1000);
         element.click();
         }
